@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      xl: '1320px',
+    },
     extend: {},
   },
-  plugins: [],
+  plugins: ["prettier", "prettier-plugin-tailwindcss"]
 }

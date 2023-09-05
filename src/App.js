@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div className="App">
+    <div className='mx-auto h-screen container'>
     </div>
   );
 };
