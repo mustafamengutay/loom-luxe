@@ -7,6 +7,10 @@ module.exports = {
     screens: {
       xl: '1320px',
     },
+    fontFamily: {
+      'sans': ['Inter'],
+      'serif': ['Cormorant'],
+    },
     extend: {
       colors: {
         white: '#F8F9FA',
@@ -17,6 +21,8 @@ module.exports = {
       },
       fontSize: {
         base: '0.875rem',
+        '2.5': '0.625rem',
+        '36': '9rem',
       }
     },
   },
